@@ -1,6 +1,6 @@
 function lambda = poisson_rate(x, p, steps)
 %poisson_rate computes the rate, lambda, such that:
-%   poisscdf(lambda,x,'upper') == p
+%   poisscdf(x,lambda,'upper') == p
 %   steps (optional, default 100): number of Newton steps to take
 
 if ~exist('steps')
